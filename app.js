@@ -11,7 +11,9 @@ const PORT = 3000;
 app.use(express.json());
 app.use(
   cors({
-    origin: "http://localhost:5173", // Allow only this origin
+    origin: "http://localhost:5173",
+    origin:
+      "https://ak-auto-s-empire-alva-git-master-iscolis-projects.vercel.app",
   })
 );
 
